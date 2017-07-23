@@ -1,0 +1,24 @@
+bin/ss-local
+bin/ss-manager
+bin/ss-server
+bin/ss-tunnel
+etc/rc.d/shadowsocks_libev
+include/shadowsocks.h
+lib/libshadowsocks-libev.a
+lib/libshadowsocks-libev.la
+libdata/pkgconfig/shadowsocks-libev.pc
+%%DOCS%%man/man1/ss-local.1.gz
+%%DOCS%%man/man1/ss-manager.1.gz
+%%DOCS%%man/man1/ss-nat.1.gz
+%%DOCS%%man/man1/ss-redir.1.gz
+%%DOCS%%man/man1/ss-server.1.gz
+%%DOCS%%man/man1/ss-tunnel.1.gz
+%%DOCS%%man/man8/shadowsocks-libev.8.gz
+%%DOCS%%%%DOCSDIR%%/shadowsocks-libev.html
+%%DOCS%%%%DOCSDIR%%/ss-local.html
+%%DOCS%%%%DOCSDIR%%/ss-manager.html
+%%DOCS%%%%DOCSDIR%%/ss-nat.html
+%%DOCS%%%%DOCSDIR%%/ss-redir.html
+%%DOCS%%%%DOCSDIR%%/ss-server.html
+%%DOCS%%%%DOCSDIR%%/ss-tunnel.html
+@sample etc/shadowsocks-libev/config.json.sample
