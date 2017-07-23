@@ -1,0 +1,5 @@
+TIMESTAMP = 1500564713
+SHA256 (shadowsocks-simple-obfs-v0.0.3_GH0.tar.gz) = 350c22e138202868d5726cb55e3d71e9962aad3306988a9f746b80d0e8998a75
+SIZE (shadowsocks-simple-obfs-v0.0.3_GH0.tar.gz) = 118454
+SHA256 (shadowsocks-libcork-3bcb832_GH0.tar.gz) = 0942976b566058fc069907d58ef113fd1efaeba06fec98bfb13990fef7d79dec
+SIZE (shadowsocks-libcork-3bcb832_GH0.tar.gz) = 184177

@@ -1,0 +1,6 @@
+bin/obfs-local
+bin/obfs-server
+%%DOCS%%man/man1/obfs-local.1.gz
+%%DOCS%%man/man1/obfs-server.1.gz
+%%DOCS%%%%DOCSDIR%%/obfs-local.html
+%%DOCS%%%%DOCSDIR%%/obfs-server.html
