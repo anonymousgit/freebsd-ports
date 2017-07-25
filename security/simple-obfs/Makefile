@@ -3,7 +3,6 @@
 
 PORTNAME=	simple-obfs
 PORTVERSION=	0.0.3
-DISTVERSIONPREFIX=	v
 CATEGORIES=	security
 
 MAINTAINER=	ports@FreeBSD.org
@@ -24,6 +23,8 @@ DOCS_CONFIGURE_OFF=   --disable-documentation
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	shadowsocks
+GH_PROJECT=	simple-obfs
+GH_TAGNAME=	ace8bd2
 GH_TUPLE+=	shadowsocks:libcork:3bcb832:libcork
 
 GNU_CONFIGURE=	yes

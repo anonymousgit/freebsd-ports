@@ -2,8 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	shadowsocks-libev
-PORTVERSION=	3.0.7
-DISTVERSIONPREFIX=	v
+PORTVERSION=	20170721.195400
 CATEGORIES=	net
 
 MAINTAINER=	ports@FreeBSD.org
@@ -26,6 +25,8 @@ DOCS_CONFIGURE_OFF=	--disable-documentation
 
 USE_GITHUB=	yes
 GH_ACCOUNT=	shadowsocks
+GH_PROJECT=	shadowsocks-libev
+GH_TAGNAME=	bf8f831
 GH_TUPLE+=	shadowsocks:libbloom:7a9deb8:libbloom
 GH_TUPLE+=	shadowsocks:libcork:0220aa5:libcork
 GH_TUPLE+=	shadowsocks:ipset:3ea7fe3:libipset
